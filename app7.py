@@ -61,7 +61,8 @@ def load_data():
 
 df = load_data()
 st.text("📄 Dataset Preview:")
-st.text(df.head().to_string())
+#st.text(df.head().to_string())
+st.table(df.head())
 
 # Download dataset button
 st.download_button(
