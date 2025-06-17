@@ -41,16 +41,17 @@ st.markdown("""
         85% { color: teal; }
         100% { color: red; }
     }
-    </style>
-
+    </style>
     <div class='title'>
+        <span>Lifestyle-Based</span>
         <span>Student</span>
-        <span>Lifestyle</span>
         <span>Stress</span>
-        <span>Level</span>
-        <span>Prediction</span>
-        <span>and</span>
-        <span>Analysis</span>
+        <span>Detection</span>
+        <span>with</span>
+        <span>Real-Time</span>
+        <span>ML</span>
+        <span>Recommendations</span>
+
     </div>
 """, unsafe_allow_html=True)
 
